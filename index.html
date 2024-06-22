@@ -7,14 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
-        <h2>Extract News App</h2><br>
-        <label for="linkInput">Input link here: </label>
-        <input type="text" id="linkInput">
+    <div id="mainContainer">
 
-        <p id="textOutput"></p>
+        <h2>Extract News App</h2>
 
-    </form>
+        <section id="linkContainer">  
+            <label for="linkInput">Link here: </label>
+            <input type="text" id="linkInput">
+            <button id="linkBtn">Send</button>
+        </section>
+
+        <section id="contentContainer">
+            <p id="textContainer" placeholder="Contents here"></p>
+        </section>
+    </div>
 
     <script src="script.js"></script>
 </body>

@@ -2,3 +2,48 @@ body{
     background-color: white;
     font-family: Arial, Sans-serif;
 }
+#mainContainer{
+    height: 75vh;
+    width: 30rem;
+    position:relative;
+    text-align: center;
+    background-color: hsl(0, 0%, 92%);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+    padding-top: 5px;
+}
+#linkContainer{
+    background-color: hsl(0, 3%, 92%);
+    padding: 10px;
+    border-radius: 15px;
+}
+#linkInput{
+    border-radius: 5px;
+    padding: 7px;
+    border: 0.5px solid black;
+    width: 17rem;
+    text-align: center;
+    font-size: 15px;
+}
+#linkBtn{
+    padding: 7px;
+    width: 5rem;
+    border-radius: 5px;
+    background-color: hsl(207, 64%, 64%);
+    border: 1px solid hsl(207, 64%, 64%);
+    color: hsl(0, 0%, 96%);
+}
+#linkBtn:hover{
+    background-color: hsl(207, 64%, 54%);
+}
+#textContainer{
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid none;
+    height: 20rem;
+    overflow: auto;
+}
+
+
